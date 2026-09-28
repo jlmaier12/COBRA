@@ -20,3 +20,6 @@ Example usage:
 
 <img width="3809" height="1604" alt="image" src="https://github.com/user-attachments/assets/574a8bbe-7e58-4675-88bf-8862a42d4d8d" />
 
+## Acknowledgements
+
+COBRA relies heavily on the functions of many, many tools and packages, but I'd like to especially thank the developers of [gggenes](https://github.com/wilkox/gggenes) which is an excellent stand-alone tool for visualizing gene annotations. COBRA simply pairs the gggenes functionality with read coverage visualization making for a more comprehensive plot overall.
