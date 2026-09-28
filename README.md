@@ -22,4 +22,4 @@ Example usage:
 
 ## Acknowledgements
 
-COBRA relies heavily on the functions of many, many tools and packages, but I'd like to especially thank the developers of [gggenes](https://github.com/wilkox/gggenes) which is an excellent stand-alone tool for visualizing gene annotations. COBRA simply pairs the gggenes functionality with read coverage visualization making for a more comprehensive plot overall.
+COBRA relies heavily on the functions of many, many tools and packages, but I'd like to especially thank the developers of [gggenes](https://github.com/wilkox/gggenes) which is an **excellent** stand-alone tool for visualizing gene annotations. COBRA simply pairs the gggenes functionality with read coverage visualization making for a more comprehensive plot overall.
