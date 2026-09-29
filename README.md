@@ -1,7 +1,11 @@
 # COBRA
 <img width="1000" height="400" alt="Logo" src="https://github.com/user-attachments/assets/b37f544f-85bb-4f51-8fc0-470f3a6bbcdf" />
 
-**View contig read coverages and associated gene annotations in an easy, user-friendly, and publication-quality figure format.**
+**Browse contig read coverages and associated gene annotations in an easy, user-friendly, and publication-quality figure format.**
+
+## Acknowledgements
+
+COBRA relies heavily on the functions of many, many tools and packages, but I'd like to especially thank the developers of [gggenes](https://github.com/wilkox/gggenes) which is an **excellent** stand-alone tool for visualizing gene annotations. COBRA simply pairs some of the gggenes functionality with read coverage visualization making for a more comprehensive coverage plot overall. Gggenes has FAR more cool functionality than what we use here! 
 
 ## Quick Start:
 
@@ -20,6 +24,11 @@ Example usage:
 
 <img width="3809" height="1604" alt="image" src="https://github.com/user-attachments/assets/574a8bbe-7e58-4675-88bf-8862a42d4d8d" />
 
-## Acknowledgements
+## Alternative usage:
 
-COBRA relies heavily on the functions of many, many tools and packages, but I'd like to especially thank the developers of [gggenes](https://github.com/wilkox/gggenes) which is an **excellent** stand-alone tool for visualizing gene annotations. COBRA simply pairs some of the gggenes functionality with read coverage visualization making for a more comprehensive coverage plot overall. Gggenes has FAR more cool functionality than what we use here! 
+Using COBRA in the web browser can slow file upload and processing times significantly compared to running the app locally in R. To run the app locally, download the 'COBRA_app' folder from this GitHub repository. Then, in R run:
+
+```
+library(shiny)
+runApp("path/to/COBRA")
+```
