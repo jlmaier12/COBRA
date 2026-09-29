@@ -11,7 +11,7 @@
    
 Note- These files tend to be large and will take a minute to load and process.
 
-4. Select the reference name for the contig you'd like to view. Generally, it is a good idea to have some contigs of interest in mind before using COBRA.
+4. Select the reference name for the contig you'd like to view. Generally, it is a good idea to have some contigs of interest in mind before using COBRA. Maybe you have identified these contigs using [TrIdent](https://jlmaier12.github.io/TrIdent/) or [ProActive](https://jlmaier12.github.io/ProActive/) :^D
 5. (Optional) Choose the base pair range to subset on the contig. Gene annotations will only be visible on a <30 kbp subset.
 6. (Optional) Type a specific gene annotation to highlight it on the subset plot.
 7. (Optional) Put read coverage in log scale.
@@ -22,4 +22,4 @@ Example usage:
 
 ## Acknowledgements
 
-COBRA relies heavily on the functions of many, many tools and packages, but I'd like to especially thank the developers of [gggenes](https://github.com/wilkox/gggenes) which is an **excellent** stand-alone tool for visualizing gene annotations. COBRA simply pairs the gggenes functionality with read coverage visualization making for a more comprehensive plot overall.
+COBRA relies heavily on the functions of many, many tools and packages, but I'd like to especially thank the developers of [gggenes](https://github.com/wilkox/gggenes) which is an **excellent** stand-alone tool for visualizing gene annotations. COBRA simply pairs some of the gggenes functionality with read coverage visualization making for a more comprehensive coverage plot overall. Gggenes has FAR more cool functionality than what we use here! 
