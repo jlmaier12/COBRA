@@ -30,5 +30,5 @@ Using COBRA in the web browser can slow file upload and processing times signifi
 
 ```
 library(shiny)
-runApp("path/to/COBRA")
+runApp("path/to/COBRA_app")
 ```
