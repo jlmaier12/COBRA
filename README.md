@@ -22,7 +22,7 @@ Note- These files tend to be large and will take a minute to load and process.
 
 Example usage:
 
-<img width="3809" height="1604" alt="image" src="https://github.com/user-attachments/assets/574a8bbe-7e58-4675-88bf-8862a42d4d8d" />
+<img width="3832" height="1645" alt="image" src="https://github.com/user-attachments/assets/c209d363-de4c-40df-8d72-aa77267ff598" />
 
 ## Alternative usage:
 
